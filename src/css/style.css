@@ -1,0 +1,79 @@
+.taskmanager {
+    width: 350px;
+}
+
+.taskmanager h1 {
+    font-size: 26px;
+}
+
+.taskmanager h2 {
+    font-size: 22px;
+    color:#757575;
+}
+
+.taskmanager .error {
+    box-sizing: border-box;
+    width: 320px;
+    margin-top: 5px;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ac0000;
+}
+
+.taskmanager .task_input {
+    box-sizing: border-box;
+    width: 320px; 
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.taskmanager .pin_list, .task_list {
+    padding-left: 0px;
+}
+
+.taskmanager .pin_list li, .task_list li {
+    box-sizing: border-box;
+    width: 320px;
+    margin-top: 2px;
+    padding: 5px 15px;
+    border: 1px #000000 solid;
+    border-radius: 10px;
+
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.taskmanager .pin_list .pin {
+    background-image: url('../img/pin.png');
+    background-repeat: no-repeat;
+    background-position: center right 10px;
+    background-size: 25px;
+}
+
+.taskmanager .pin_list .pin:hover {
+    background-image: url('../img/task.png');
+}
+
+.taskmanager .task_list .task {
+    background-image: url('../img/task.png');
+    background-repeat: no-repeat;
+    background-position: center right 10px;
+    background-size: 25px;
+}
+
+.taskmanager .task_list .task:hover {
+    background-image: url('../img/pin.png');
+}
+
+.taskmanager .pin_list .empty, .task_list .empty {
+    border-color: #757575;
+    text-align: center;
+    color: #757575;
+    font-weight: bold;
+}
+
